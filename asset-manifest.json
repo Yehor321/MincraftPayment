@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MincraftPayment/static/css/main.cc190d76.css",
+    "main.js": "/MincraftPayment/static/js/main.0bbf35cb.js",
+    "static/media/MakerOfMiniApp.jpg": "/MincraftPayment/static/media/MakerOfMiniApp.e7a14698a3f08250f4d2.jpg",
+    "static/media/GoldBlockLogo.webp": "/MincraftPayment/static/media/GoldBlockLogo.8bd37d472198b95fe14c.webp",
+    "static/media/CopperBlockLogo.webp": "/MincraftPayment/static/media/CopperBlockLogo.4bf21e1e2d189103445f.webp",
+    "static/media/IronBlockLogo.webp": "/MincraftPayment/static/media/IronBlockLogo.fe5fc4346f0bed56d082.webp",
+    "index.html": "/MincraftPayment/index.html",
+    "main.cc190d76.css.map": "/MincraftPayment/static/css/main.cc190d76.css.map",
+    "main.0bbf35cb.js.map": "/MincraftPayment/static/js/main.0bbf35cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc190d76.css",
+    "static/js/main.0bbf35cb.js"
+  ]
+}
