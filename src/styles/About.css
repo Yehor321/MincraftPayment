@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.ShellBox2{
+    display: flex;
+    margin-bottom: 5%;
+}
+.ShellP2{
+    color: white;
+}
+.testBox2{
+    width: 150px;
+    height: 150px;
+}
+.testBox2 img{
+    width: 100%;
+    height: 100%;
+}
