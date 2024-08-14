@@ -1,7 +1,6 @@
 import './styles/Header.css';
 
 import iconInfo from './img/iconInfo.png'
-import iconHome from './img/iconHome.png'
 import iconGoods from './img/iconGoods.png'
 
 import { Route, Routes, NavLink } from 'react-router-dom';
