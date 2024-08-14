@@ -1,6 +1,5 @@
 {
   "name": "mincraftpayment",
-  "homepage": "https://yehor321.github.io/MincraftPayment/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
