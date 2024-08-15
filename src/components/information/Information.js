@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import "../styles/About.css";
+import "./Information.css";
 
-import GoldenBlock from '../img/GoldBlockLogo.webp'
-import IronBlock from '../img/IronBlockLogo.webp'
-import CopperBlock from '../img/CopperBlockLogo.webp'
+import GoldenBlock from '../../assets/goods/GoldBlockLogo.webp'
+import IronBlock from '../../assets/goods/IronBlockLogo.webp'
+import CopperBlock from '../../assets/goods/CopperBlockLogo.webp'
 
 const DataGoods = [
     {

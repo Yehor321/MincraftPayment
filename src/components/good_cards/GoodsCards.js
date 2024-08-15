@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import "../styles/GoodsBox.css";
+import "../good_cards/GoodsCards.css";
 
-import GoldenBlock from '../img/GoldBlockLogo.webp'
-import IronBlock from '../img/IronBlockLogo.webp'
-import CopperBlock from '../img/CopperBlockLogo.webp'
+import GoldenBlock from '../../assets/goods/GoldBlockLogo.webp'
+import IronBlock from '../../assets/goods/IronBlockLogo.webp'
+import CopperBlock from '../../assets/goods/CopperBlockLogo.webp'
 
 function GoodsBox(){
 
@@ -11,17 +11,20 @@ function GoodsBox(){
         {
             img: GoldenBlock,
             description: "dolor",
-            price: "100$"
+            price: "150₴",
+            href: "https://github.com/Yehor321/MincraftPayment"
         },
         {
             img: IronBlock,
             description: "dolor",
-            price: "100$"
+            price: "100₴",
+            href: "https://github.com/Yehor321/MincraftPayment"
         },
         {
             img: CopperBlock,
             description: "dolor",
-            price: "100$"
+            price: "50₴",
+            href: "https://github.com/Yehor321/MincraftPayment"
         },
       ];
     
@@ -43,9 +46,10 @@ function GoodsBox(){
             const img = document.createElement('img');
             img.src = el.img;
     
-            const ShellBox_ButtonBuy = document.createElement('button');
+            const ShellBox_ButtonBuy = document.createElement('a');
             ShellBox_ButtonBuy.className = 'ShellBox_ButtonBuy';
-            ShellBox_ButtonBuy.innerHTML = 'Buy';
+            ShellBox_ButtonBuy.innerHTML = el.price;
+            ShellBox_ButtonBuy.href = el.href;
             ShellBox_ButtonBuy.id = `btn${numID}`;
     
             main.appendChild(ShellBox);
@@ -54,15 +58,17 @@ function GoodsBox(){
             testBox.appendChild(img);
         });
     
-        // const tg = window.Telegram.WebApp
-        // tg.initData()
-    
-        // const testtel = document.createElement('p')
-        // testtel.innerHTML = 'saffd'
-        // main.appendChild(testtel)
-    
-    }
 
+
+        // let tg = window.Telegram.WebApp;
+
+        
+        // tg.extend()
+    
+        // let userName = document.createElement("p")
+
+        // userName.innerText = `${tg.initDataUnsafe.first_name} ${tg.initDataUnsafe.last_name}`
+    }
 
 
     useEffect(() => {
@@ -72,6 +78,7 @@ function GoodsBox(){
     return(
         <>
             <main id="mainn"></main>
+            <a href=""></a>
         </>
 
     )
